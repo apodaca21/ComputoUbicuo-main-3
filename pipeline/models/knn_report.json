@@ -10,42 +10,42 @@
     15
   ],
   "validation_scores": {
-    "1": 0.9473684210526315,
-    "3": 0.8421052631578947,
-    "5": 0.8421052631578947,
-    "7": 0.8421052631578947,
-    "9": 0.8421052631578947,
-    "11": 0.8421052631578947,
-    "15": 0.8421052631578947
+    "1": 1.0,
+    "3": 1.0,
+    "5": 1.0,
+    "7": 1.0,
+    "9": 0.9714285714285714,
+    "11": 0.9714285714285714,
+    "15": 0.9714285714285714
   },
   "train_metrics": {
     "accuracy": 1.0,
     "f1_score": 1.0,
     "precision": 1.0,
     "recall": 1.0,
-    "support": 136
+    "support": 272
   },
   "validation_metrics": {
-    "accuracy": 0.9411764705882353,
-    "f1_score": 0.9473684210526315,
-    "precision": 0.9,
+    "accuracy": 1.0,
+    "f1_score": 1.0,
+    "precision": 1.0,
     "recall": 1.0,
-    "support": 17
+    "support": 34
   },
   "test_metrics": {
     "accuracy": 1.0,
     "f1_score": 1.0,
     "precision": 1.0,
     "recall": 1.0,
-    "support": 17
+    "support": 34
   },
   "class_labels": [
     "derecho",
     "inclinado_jorobado"
   ],
-  "n_train": 136,
-  "n_val": 17,
-  "n_test": 17,
+  "n_train": 272,
+  "n_val": 34,
+  "n_test": 34,
   "use_pca": true,
   "n_features": 3,
   "note": "Ver knn_report.json para m\u00e9tricas train/val/test"
