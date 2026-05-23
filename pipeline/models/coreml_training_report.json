@@ -1,0 +1,10 @@
+{
+  "n_samples": 20,
+  "n_train": 16,
+  "n_test": 4,
+  "classes": [
+    "derecho",
+    "inclinado_jorobado"
+  ],
+  "feature_count": 38
+}

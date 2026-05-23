@@ -31,6 +31,10 @@ DISCRETE_INSEGURO = 1
 LABEL_TO_DISCRETE: dict[str, int] = {
     LABEL_SEGURO: DISCRETE_SEGURO,
     LABEL_INSEGURO: DISCRETE_INSEGURO,
+    "safe": DISCRETE_SEGURO,
+    "unsafe": DISCRETE_INSEGURO,
+    "seguro": DISCRETE_SEGURO,
+    "inseguro": DISCRETE_INSEGURO,
 }
 
 
@@ -86,7 +90,10 @@ def load_labeled_dataset(
     y_raw = df["label"].astype(str).to_numpy()
     classes = [LABEL_SEGURO, LABEL_INSEGURO]
     y = np.array(
-        [LABEL_TO_DISCRETE.get(v, DISCRETE_SEGURO) for v in y_raw],
+        [
+            LABEL_TO_DISCRETE.get(str(v).strip().lower(), DISCRETE_SEGURO)
+            for v in y_raw
+        ],
         dtype=np.int64,
     )
     return X, y, classes
