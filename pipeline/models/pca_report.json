@@ -1,0 +1,17 @@
+{
+  "n_samples": 10,
+  "n_features_in": 11,
+  "n_components": 3,
+  "explained_variance_ratio": [
+    0.7045281421948272,
+    0.24196314390298015,
+    0.05222211791297449
+  ],
+  "cumulative_explained_variance": [
+    0.7045281421948272,
+    0.9464912860978073,
+    0.9987134040107818
+  ],
+  "total_explained_variance": 0.9987134040107818,
+  "variance_threshold": 0.95
+}

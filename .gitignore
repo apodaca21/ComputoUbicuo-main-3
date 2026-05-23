@@ -1,0 +1,15 @@
+.DS_Store
+**/.DS_Store
+**/xcuserdata/
+**/*.xcuserstate
+DerivedData/
+build/
+pipeline/output/
+pipeline/models/*.joblib
+pipeline/models/*.pkl
+pipeline/data/labeled_postures.csv
+__pycache__/
+*.pyc
+.venv/
+*.ipa
+*.dSYM.zip

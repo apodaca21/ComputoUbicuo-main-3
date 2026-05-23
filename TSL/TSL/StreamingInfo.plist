@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>NSLocalNetworkUsageDescription</key>
+	<string>The Silent Coach transmite video en vivo entre iPad e iPhone en tu red local (US-09).</string>
+	<key>NSBonjourServices</key>
+	<array>
+		<string>_tsl-live._tcp</string>
+	</array>
+</dict>
+</plist>
